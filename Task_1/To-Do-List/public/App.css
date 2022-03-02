@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.InnerCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-note {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 400px;
+  background: #c209ff;
+  border-radius: 10px;
+}
+
+input {
+  width: 80%;
+}
+
+button {
+  height: auto;
+  width: 35px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input,
+button {
+  font-size: 1.2em;
+  padding: 0.2em;
+  margin: 0.1em 0em;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.Header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  font-weight: 300;
+  align-items: center;
+  padding: 10px;
+  background-color: #d4f6f6;
+  border-radius: 10px;
+}

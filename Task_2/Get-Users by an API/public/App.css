@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Navbar Css Module */
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  padding: 14px 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  float: right;
+  margin-right: 5rem;
+  align-items: center;
+  background-color: #3eb2fd;
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  padding: 4px 10px;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+}
+
+ul p {
+  font-size: 1.5em;
+}
+
+/* Card Module css */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.Avatar {
+  border-radius: 50%;
+}

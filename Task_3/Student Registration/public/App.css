@@ -1,0 +1,87 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.form {
+  font-size: 1.4em;
+  font-weight: 500;
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: white;
+  border-radius: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+.row {
+  margin: 20px 0px;
+}
+
+button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #573b8a;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+button:hover {
+  background: #6d44b8;
+}
+
+.form-check-input {
+  height: 20px;
+  width: 18px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.Avatar {
+  border-radius: 50%;
+  border: 1px solid black;
+}

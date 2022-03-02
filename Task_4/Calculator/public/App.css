@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Button {
+  background: black;
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  height: 20%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.Calculator {
+  width: 700px;
+  height: 370px;
+  position: relative;
+  margin: 25px;
+}
+
+.Display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: white;
+  height: 30%;
+  font-weight: bold;
+  color: black;
+  font-size: 3em;
+  border: 2px solid black;
+}
+
+.Keypad {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
